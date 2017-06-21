@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Larning testNG]">
+  <test name="Application Test(failed)">
+    <classes>
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="doLogin"/>
+          <include name="aftersuite"/>
+          <include name="doLogout"/>
+          <include name="AfterMethod"/>
+          <include name="doPasswordChange"/>
+          <include name="beforemethod"/>
+          <include name="beforesuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+      <class name="testcases.RegTest">
+        <methods>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- testcases.RegTest -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="doLoginTest"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="AfterMethod"/>
+          <include name="beforemethod"/>
+          <include name="beforesuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+      <class name="testcases.RegTest">
+        <methods>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- testcases.RegTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Registration Test(failed)">
+    <classes>
+      <class name="testcases.RegTest">
+        <methods>
+          <include name="Quit"/>
+          <include name="doRegisterTest"/>
+        </methods>
+      </class> <!-- testcases.RegTest -->
+      <class name="testcases.ApplicationTest">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="AfterMethod"/>
+          <include name="beforemethod"/>
+          <include name="beforesuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.ApplicationTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [Larning testNG] -->

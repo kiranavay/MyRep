@@ -1,0 +1,21 @@
+<suite name="Larning testNG" >
+	
+	<test name="Application Test" allow-return-values="true">
+		<classes>
+			<class name="testcases.ApplicationTest"/>
+		</classes>
+	</test>
+	
+	<test name="Login Test" allow-return-values="true">
+		<classes>
+			<class name="testcases.LoginTest"/>
+		</classes>
+	</test>
+	
+	<test name="Registration Test" allow-return-values="true">
+		<classes>
+			<class name="testcases.RegTest"/>
+		</classes>
+	</test>
+	
+</suite>
